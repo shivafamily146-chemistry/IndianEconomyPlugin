@@ -13,6 +13,8 @@ jobs:
           distribution: temurin
           java-version: '25'
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.0'
       - name: Build shaded plugin JAR
         run: gradle build --no-daemon
       - name: Upload JAR
