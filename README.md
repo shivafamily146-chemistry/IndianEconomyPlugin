@@ -6,7 +6,7 @@ Paper plugin source project targeting Minecraft Java 26.3.
 Requires JDK 25 and internet access. Run:
 
 ```bash
-./gradlew build
+gradle build
 ```
 
 The shaded plugin JAR is written to `build/libs/IndianEconomyPlugin-1.0.0.jar`.
