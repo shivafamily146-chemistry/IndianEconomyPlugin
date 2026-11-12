@@ -1,0 +1,17 @@
+# Material names must match Bukkit Material constants.
+items:
+  bread:
+    material: BREAD
+    amount: 1
+    buy: 10.00
+    sell: 4.00
+  iron_ingot:
+    material: IRON_INGOT
+    amount: 1
+    buy: 50.00
+    sell: 20.00
+  diamond:
+    material: DIAMOND
+    amount: 1
+    buy: 500.00
+    sell: 200.00
