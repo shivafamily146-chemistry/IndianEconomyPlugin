@@ -1,0 +1,36 @@
+name: IndianEconomy
+version: 1.0.0
+main: io.github.shivafamily146.indianeconomy.IndianEconomyPlugin
+api-version: '26.3'
+description: INR economy foundation for Paper servers
+author: shivafamily146
+commands:
+  bal:
+    description: Check your balance
+    usage: /bal
+    permission: indianeconomy.use
+  pay:
+    description: Send money to a player
+    usage: /pay <player> <amount>
+    permission: indianeconomy.pay
+  daily:
+    description: Claim your daily reward
+    usage: /daily
+    permission: indianeconomy.use
+  shop:
+    description: Open the economy shop
+    usage: /shop
+    permission: indianeconomy.shop
+  ie:
+    description: IndianEconomy admin commands
+    usage: /ie <help|give|take|set|reload>
+    permission: indianeconomy.admin
+permissions:
+  indianeconomy.use:
+    default: true
+  indianeconomy.pay:
+    default: true
+  indianeconomy.shop:
+    default: true
+  indianeconomy.admin:
+    default: op
